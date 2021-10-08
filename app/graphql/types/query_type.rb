@@ -7,6 +7,7 @@ module Types
     field :genders, resolver: Resolvers::GendersSearch
     # field :movies, resolver: Resolvers::MoviesSearch
     field :user, Types::UserType, null: false
+    field :users, resolver: Resolvers::UsersSearch
 
     def user
       context[:current_user]

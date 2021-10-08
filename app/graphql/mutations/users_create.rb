@@ -1,5 +1,4 @@
 class Mutations::UsersCreate < Mutations::BaseMutation
-  null true
 
   argument :name, String, required: true
   argument :email, String, required: false
