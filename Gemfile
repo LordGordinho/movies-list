@@ -16,6 +16,7 @@ gem 'graphql', '~> 1.12', '>= 1.12.14'
 gem 'jwt'
 gem 'simple_command'
 gem 'oj'
+gem 'httparty'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
