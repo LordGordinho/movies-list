@@ -17,6 +17,7 @@ gem 'jwt'
 gem 'simple_command'
 gem 'oj'
 gem 'httparty'
+gem 'search_object_graphql'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

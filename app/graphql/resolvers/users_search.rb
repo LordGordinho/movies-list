@@ -1,8 +1,8 @@
 module Resolvers
-  class User::Search < Resolvers::Base
+  class UsersSearch < Resolvers::Base
     include SearchObject.module(:graphql)
     
-    type [Types::User], null: false
+    type [Types::UserType], null: false
 
     def resolve
       User.all
